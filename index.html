@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+<header>
+  <nav>
+    <img src="./assets/images/logo.svg" alt="" class="logo">
+    <input type="checkbox" name="" id="check">
+
+            <label for="check" class="icons">
+              <i class='bx bx-menu' id="menu"></i>
+              <i class='bx bx-x' id="close"></i>
+            </label>
+    <div class="navbar">
+      <ul class="nav__menu">
+        <li class="nav__list"><a href="#" class="nav__item">Home</a></li>
+        <li class="nav__list"><a href="#" class="nav__item">New</a></li>
+        <li class="nav__list"><a href="#" class="nav__item">Popular</a></li>
+        <li class="nav__list"><a href="#" class="nav__item">Trending</a></li>
+        <li class="nav__list"><a href="#" class="nav__item">Categories</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+  <main>
+    <section class="banner">
+      <div class="banner__wrapper">
+        <div class="left__col">
+          <picture>
+            <source media="(max-width: 600px)" srcset="./assets/images/image-web-3-mobile.jpg">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+          </picture>
+          <div class="banner__content">
+            <div class="col1"><h1>The Bright Future of Web 3.0?</h1></div>
+          <div class="col2"><p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+        <button class="read__btn">Read more</button>
+        </div>
+          </div>
+        </div>
+        <div class="right__col">
+          <h2>New</h2>
+          <div class="news">
+            <div class="news__heading">Hydrogen VS Electric Cars</div>
+            <div class="news__details"> Will hydrogen-fueled cars ever catch up to EVs?</div>
+            <div class="line"></div>
+          </div>
+          <div class="news">
+            <div class="news__heading">The Downsides of AI Artistry</div>
+            <div class="news__details">What are the possible adverse effects of on-demand AI image generation?</div>
+            <div class="line"></div>
+          </div>
+          <div class="news">
+            <div class="news__heading">Is VC Funding Drying Up?</div>
+            <div class="news__details">Private funding by VC firms is down 50% YOY. We take a look at what that means.</div>
+          </div>
+        </div>
+      </div>
+      <div class="banner__bottom">
+        <div class="tech__news">
+          <div class="tech__col1"><img src="./assets/images/image-retro-pcs.jpg" alt=""></div>
+          <div class="tech__col2">
+            <div class="number">01</div>
+            <div class="tech__title">Reviving Retro PCs</div>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="tech__news">
+          <div class="tech__col1"><img src="./assets/images/image-top-laptops.jpg" alt=""></div>
+          <div class="tech__col2">
+            <div class="number">02</div>
+            <div class="tech__title">Top 10 Laptops of 2022</div>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="tech__news">
+          <div class="tech__col1"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
+          <div class="tech__col2">
+            <div class="number">03</div>
+            <div class="tech__title">The Growth of Gaming</div>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
