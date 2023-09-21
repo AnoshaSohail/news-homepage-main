@@ -21,8 +21,8 @@ The screenshot above provides a glimpse of the project's appearance. The design 
 
 ### Live Demo
 
-You can access the live demo of the project [here](https://your-live-site-url.com).
-You can access the code of the project [here](https://your-live-site-url.com).
+You can access the live demo of the project [here]( https://anoshasohail.github.io/news-homepage-main/).
+You can access the code of the project [here](https://github.com/AnoshaSohail/news-homepage-main.git).
 
 ## My Process
 The project was primarily built with HTML5 and CSS3, utilizing responsive design principles to ensure it looks great on various screen sizes. JavaScript was used to enhance user interaction and functionality.
